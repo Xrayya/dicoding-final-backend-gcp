@@ -145,3 +145,6 @@ dist
 
 # Archive files
 *.zip
+
+# Bun binary lockfile
+bun.lockb
