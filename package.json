@@ -1,0 +1,25 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Project for completing \"Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud\" course in Dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xrayya/dicoding-final-backend-gcp.git"
+  },
+  "keywords": [
+    "back-end",
+    "Dicoding",
+    "GCP",
+    "Hapi.js"
+  ],
+  "author": "Xrayya (nur.alkhiyar@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xrayya/dicoding-final-backend-gcp/issues"
+  },
+  "homepage": "https://github.com/Xrayya/dicoding-final-backend-gcp#readme"
+}
