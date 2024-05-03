@@ -2,8 +2,11 @@
   "name": "submission",
   "version": "1.0.0",
   "description": "Project for completing \"Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud\" course in Dicoding",
-  "main": "index.js",
+  "main": "src/server.js",
+  "type": "module",
   "scripts": {
+    "dev": "bunx nodemon src/server.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +24,15 @@
   "bugs": {
     "url": "https://github.com/Xrayya/dicoding-final-backend-gcp/issues"
   },
-  "homepage": "https://github.com/Xrayya/dicoding-final-backend-gcp#readme"
+  "homepage": "https://github.com/Xrayya/dicoding-final-backend-gcp#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/node": "^20.12.8",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  }
 }
